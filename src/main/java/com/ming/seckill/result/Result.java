@@ -34,7 +34,6 @@ public class Result<T>{
      * @return
      */
     public static <T> Result<T> error(CodeMsg cm){
-
         return new Result<T>(cm);
     }
 
